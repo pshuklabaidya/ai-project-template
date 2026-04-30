@@ -135,12 +135,6 @@ Before featuring any project created from this template:
 - [ ] No unsupported production claims appear.
 - [ ] Demo scope is honest and recruiter-friendly.
 
-## Recommended First Project
-
-**Agentic Support Copilot**
-
-A Streamlit-first Agentic RAG portfolio demo using synthetic SaaS support tickets to demonstrate triage, retrieval, response drafting, evaluation, documentation, and responsible AI boundaries.
-
 ## Responsible Use
 
 This template is for legitimate educational and portfolio demonstrations. It should not be used to create deceptive, malicious, privacy-invasive, credential-stealing, exploit-generating, surveillance, spam, or security-sensitive tooling.
