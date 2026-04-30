@@ -1,6 +1,6 @@
 # AI Project Template
 
-Reusable Streamlit-first template for building recruiter-friendly AI portfolio projects focused on Agentic RAG, LLM evaluation, synthetic-data demos, AI automation, and decision-support workflows.
+Reusable Streamlit-first template for building AI portfolio projects focused on Agentic RAG, LLM evaluation, synthetic-data demos, AI automation, and decision-support workflows.
 
 > Status: Template repository for AI portfolio projects. This repository is not a finished AI application.
 
