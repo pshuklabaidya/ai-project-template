@@ -16,7 +16,6 @@ This template provides a consistent starting structure for AI portfolio reposito
 - Evaluation notes
 - Executive-polished documentation
 - Responsible AI boundaries
-- Recruiter-friendly project presentation
 
 ## Intended Use
 
@@ -40,8 +39,6 @@ Every project created from this template should follow these principles:
 - Include tests.
 - Include limitations.
 - Include evaluation notes.
-- Avoid inflated production, customer, revenue, or deployment claims.
-- Keep all claims limited to what the repository actually demonstrates.
 
 ## Repository Structure
 
