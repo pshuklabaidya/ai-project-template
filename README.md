@@ -6,7 +6,7 @@ Reusable Streamlit-first template for building recruiter-friendly AI portfolio p
 
 ## Purpose
 
-This template provides a consistent starting structure for AI portfolio repositories that need to demonstrate:
+This template provides a consistent starting structure for AI portfolio repositories that demonstrate:
 
 - Clear business problem framing
 - Synthetic-data disclosure
@@ -15,7 +15,8 @@ This template provides a consistent starting structure for AI portfolio reposito
 - Tests and quality checks
 - Evaluation notes
 - Executive-polished documentation
-- Interview-ready technical explanation
+- Responsible AI boundaries
+- Recruiter-friendly project presentation
 
 ## Intended Use
 
@@ -38,7 +39,7 @@ Every project created from this template should follow these principles:
 - Include setup instructions.
 - Include tests.
 - Include limitations.
-- Include interview notes.
+- Include evaluation notes.
 - Avoid inflated production, customer, revenue, or deployment claims.
 - Keep all claims limited to what the repository actually demonstrates.
 
@@ -49,19 +50,104 @@ Every project created from this template should follow these principles:
 ├── app/
 ├── src/
 ├── tests/
-├── data/
-│   └── synthetic/
+├── data/synthetic/
 ├── docs/
 ├── evals/
 ├── scripts/
-├── .github/
-│   └── workflows/
+├── .github/workflows/
 ├── README.md
-├── INTERVIEW_NOTES.md
 ├── SECURITY.md
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── .env.example
 ├── requirements.txt
-└── pyproject.toml
+├── pyproject.toml
+└── .env.example
+```
+
+## Folder And File Guide
+
+| Path | Purpose |
+|---|---|
+| `app/` | Streamlit app entrypoints and demo UI files |
+| `src/` | Reusable application logic, RAG pipelines, agents, schemas, and utilities |
+| `tests/` | Unit tests, smoke tests, and regression checks |
+| `data/synthetic/` | Clearly labeled synthetic datasets used for demo workflows |
+| `docs/` | Architecture notes, data dictionaries, diagrams, implementation notes, and evaluation summaries |
+| `evals/` | Evaluation datasets, metrics scripts, and result summaries |
+| `scripts/` | Data generation, ingestion, evaluation, and setup scripts |
+| `.github/workflows/` | GitHub Actions workflows for tests and quality checks |
+
+## Recommended Project README Pattern
+
+Each generated project should replace this template README with a project-specific README containing:
+
+- Project title
+- One-sentence value proposition
+- Demo status
+- Synthetic-data disclosure
+- Business problem
+- Architecture overview
+- Features
+- Tech stack
+- Quickstart
+- Example usage
+- Evaluation
+- Tests
+- Limitations
+- Roadmap
+- License
+
+## Synthetic-Data Disclosure Template
+
+Use language like this in every generated project:
+
+> This project uses synthetic data for educational and portfolio demonstration purposes. It does not contain private customer data, employer data, confidential records, or production exports.
+
+## Recommended Tech Stack
+
+Default stack:
+
+- Python
+- Streamlit
+- Pandas
+- Pytest
+- Ruff
+- GitHub Actions
+
+Optional additions by project type:
+
+- LangChain or LlamaIndex for RAG workflows
+- Chroma or Qdrant for vector retrieval
+- FastAPI for API-first demos
+- Docker for stronger reproducibility
+- MkDocs or GitHub Pages for expanded documentation
+
+## Quality Checklist
+
+Before featuring any project created from this template:
+
+- [ ] README explains the business problem clearly.
+- [ ] Synthetic data is disclosed clearly.
+- [ ] Setup instructions work from a fresh clone.
+- [ ] Tests exist and pass.
+- [ ] GitHub Actions workflow runs successfully.
+- [ ] Limitations are explicit.
+- [ ] Evaluation notes explain quality checks, metrics, and failure cases.
+- [ ] No real secrets are committed.
+- [ ] No unsupported production claims appear.
+- [ ] Demo scope is honest and recruiter-friendly.
+
+## Recommended First Project
+
+**Agentic Support Copilot**
+
+A Streamlit-first Agentic RAG portfolio demo using synthetic SaaS support tickets to demonstrate triage, retrieval, response drafting, evaluation, documentation, and responsible AI boundaries.
+
+## Responsible Use
+
+This template is for legitimate educational and portfolio demonstrations. It should not be used to create deceptive, malicious, privacy-invasive, credential-stealing, exploit-generating, surveillance, spam, or security-sensitive tooling.
+
+## License
+
+MIT
